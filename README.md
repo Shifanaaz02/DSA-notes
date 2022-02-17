@@ -1,1 +1,1 @@
-<h1>DSA notesd</h1>
+<h1>DSA notes</h1>
