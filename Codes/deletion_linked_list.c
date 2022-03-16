@@ -43,11 +43,9 @@ struct Node * DeleteLastNode(struct Node * head){
 struct Node * DeleteNodevalue(struct Node * head, int value){
     struct Node *p = head;
     struct Node *q = p->next;
-    int i=0;
     while(q->data != value){
         p = p->next;
         q = q->next;
-        i++;
     }
     p->next = q->next;
     free(q);
